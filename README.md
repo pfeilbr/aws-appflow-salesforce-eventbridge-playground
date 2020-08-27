@@ -34,7 +34,6 @@ Event in CloudWatch Logs
 
 AppFlow Mapping
 ![](https://www.evernote.com/l/AAEG72PQcHlNhrTqGdsmhe0DrtStP8VuCnEB/image.png)
-!
 
 ## Resources
 
