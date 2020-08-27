@@ -4,7 +4,7 @@
 
 ## Notes
 
-* observed low latency - AppFlow flow runs within 2 seconds of event being generated in saelsforce.
+* observed low latency - AppFlow flow runs within 2 seconds of event being generated in salesforce.
 * only fields specified in mapping are passed to EventBridge as properties of `detail`.
 [Private Amazon AppFlow flows](https://docs.aws.amazon.com/appflow/latest/userguide/private-flows.html) is available for salesforce that uses AWS PrivateLink to route data over AWS infrastructure without exposing it to the public internet
 
@@ -16,7 +16,10 @@ Turn on Change Data Capture for the relevant objects in salesforce
 Error when CDC is not turned on in salesforce for the object
 ![](https://www.evernote.com/l/AAEDjQW7qIpJ7azu59MIH05tvwqdqYOjrbsB/image.png)
 
-AppFlow installs "Amazon AppFlow Embedded Login App" Connected App in salesforce
+AppFlow leverages already installed/available "Amazon AppFlow Embedded Login App" Connected App in salesforce
+
+![](https://www.evernote.com/l/AAEyS5AOJn9F8pnZVMiV0Up7f5ydSNPApQwB/image.png)
+
 ![](https://www.evernote.com/l/AAGR_pfFpElDa4WwFTLoHEtGhpPxDKREPnoB/image.png)
 
 ![](https://www.evernote.com/l/AAEG72PQcHlNhrTqGdsmhe0DrtStP8VuCnE)
