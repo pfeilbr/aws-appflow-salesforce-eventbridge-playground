@@ -6,7 +6,7 @@
 
 * observed low latency - AppFlow flow runs within 2 seconds of event being generated in salesforce.
 * only fields specified in mapping are passed to EventBridge as properties of `detail`.
-[Private Amazon AppFlow flows](https://docs.aws.amazon.com/appflow/latest/userguide/private-flows.html) is available for salesforce that uses AWS PrivateLink to route data over AWS infrastructure without exposing it to the public internet
+* [Private Amazon AppFlow flows](https://docs.aws.amazon.com/appflow/latest/userguide/private-flows.html) is available for salesforce that uses AWS PrivateLink to route data over AWS infrastructure without exposing it to the public internet
 
 ## Screenshot Tour
 
